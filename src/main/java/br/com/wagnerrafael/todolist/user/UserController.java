@@ -37,13 +37,13 @@ public class UserController {
      private IUserRepository userRepository;
 
     @PostMapping("/")
-    public ResponseEntity create(@RequestBody UserModel userModel) {
+    public ResponseEntity<?> create(@RequestBody UserModel userModel) {
        var user = this.userRepository.findByUsername(userModel.getUsername());
 
        if(user !=null) {
         // Mensagem de erro
         // Status Code
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe");
+        return ResponseEntity.status(HttpStatus.CONFLICT).body("Usuário já existe");
        }
 
        var passwordHashred = BCrypt.withDefaults()
