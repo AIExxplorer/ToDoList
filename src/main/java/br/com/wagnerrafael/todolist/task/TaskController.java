@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.wagnerrafael.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
@@ -56,15 +57,18 @@ public class TaskController {
 
     // http://localhost:8080/tasks/892347823-cdfgcvb-832748234
     @PutMapping("/{id}")
-    public ResponseEntity<?> update(@RequestBody TaskModel taskModel, @PathVariable UUID id, HttpServletRequest request) { 
-        var idUser = (UUID) request.getAttribute("idUser");
-        System.out.println("IDUSER" + "idUser");
-        taskModel.setIdUser((UUID)idUser);
-        taskModel.setId(id);
+    public ResponseEntity<TaskModel> update(@RequestBody TaskModel taskModel, @PathVariable UUID id, HttpServletRequest request) { 
+        var task = this.taskRepository.findById(id).orElse(null);
 
-        taskModel.setCreatedAt(LocalDateTime.now());
+        if (task == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+        }
 
-        var updatedTask = this.taskRepository.save(taskModel);
+        Utils.copyNonNullProperties(taskModel, task);
+        task.setCreatedAt(LocalDateTime.now());
+        
+        var updatedTask = this.taskRepository.save(task);
+
         return ResponseEntity.status(HttpStatus.OK).body(updatedTask);
     }
 }
