@@ -20,6 +20,9 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 - Maven
 - Docker (caso deseje usar o Docker para implantar a aplicação)
 
+## Veja uma demonstração da aplicação
+[![Aplicação ToDoList - Funcionamento](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Q_pw0Oty7oA)
+
 ## Como Executar a Aplicação
 
 Siga as etapas abaixo para executar a aplicação:
