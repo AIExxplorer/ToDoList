@@ -67,3 +67,36 @@ Você também poderá usar uma ferramenta para teste de API’s (APIDog, Postman
 - PUT p/ (Atualizar tarefas): `https://todolist-l5y1.onrender.com/tasks/id-da-tarefa-cadastrada`
 
 (Obs: no PUT você precisará fornecer a id da tarefa cadastrada na url. Exemplo: `https://todolist-l5y1.onrender.com/tasks/077cdddb-8297-4707-9ee9-6d2d949219cd`)
+
+## Contribuição
+
+Sinta-se à vontade para contribuir para o desenvolvimento da To-Do List. Você pode abrir problemas (issues) ou enviar solicitações de pull (pull requests) para ajudar a melhorar e expandir esta aplicação.
+
+## Licença
+
+Este projeto é licenciado sob os termos da Licença MIT, uma licença de código aberto que permite a você usar, modificar e distribuir o código conforme necessário. Esta escolha de licença foi feita para promover a colaboração e o compartilhamento de código.
+
+## Termos da Licença
+
+O texto a seguir descreve os termos da Licença MIT:
+
+MIT License
+
+Copyright (c) [2023] [Wagner Rafael | AIExxplorer]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Leia a Licença MIT](https://opensource.org/licenses/MIT)
+
+---
+
+Criado por [Wagner Rafael | AIExxplorer] - [contactaiexxplorer@gmail.com] - [https://github.com/AIExxplorer/]
