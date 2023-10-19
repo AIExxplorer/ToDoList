@@ -7,6 +7,19 @@
 Este projeto é uma aplicação Java, desenvolvida usando o framework Spring Boot, que permite que você gerencie suas tarefas de forma eficiente.
 
 ## Sobre o Projeto
+```
+Linguagem utilizada: 
+```
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="100" height="100" />
+</p>
+
+```
+Framework utilizado:
+```
+<p align="center">
+  <img src="https://spring.io/img/logos/spring-initializr.svg" width="75" height="75" />
+</p>
 
 Este projeto é parte do Curso Gratuito de Java oferecido pela Rocketseat, onde você aprende os fundamentos essenciais para iniciar um projeto, aprofundamento no Spring Boot, integração com bancos de dados, noções básicas de autenticação e muito mais.
 
@@ -15,14 +28,23 @@ Com base nas aulas ministradas pela Daniele Leão, criou-se um projeto de To-Do 
 - Gerenciamento de tarefas com descrição, título, data de início e término e prioridade.
 - Integração com bancos de dados para armazenar e recuperar tarefas.
 - Recursos de autenticação básica para proteger as tarefas.
+- Recursos de atualização de tarefas e validação de rotas.
+- Deploy do Back-End.
 
 ## Pré-Requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
-
+```
 - Java Development Kit (JDK)
 - Maven
 - Docker (caso deseje usar o Docker para implantar a aplicação)
+```
+<p align="center">
+  <img src="https://github.com/madhurimarawat/Java-Programming/assets/105432776/21fbc4f4-3bb0-4ea9-95b7-e5a7e52d6f93" width="150" height="75" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png" width="150" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="75" height="75" />
+</p>
+
 
 ## Veja uma demonstração da aplicação
 [![Aplicação ToDoList - Funcionamento](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Q_pw0Oty7oA)
