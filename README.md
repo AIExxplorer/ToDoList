@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1100606273633914941/1164402842627481600/Thumbnail.png?ex=654315a7&is=6530a0a7&hm=e1e6dc4791f8cd2f30e43223444c264710c48ee0bd83e2423e674ae9e60bf6b3&" />
+  <img src="https://utfs.io/f/39ee7e50-a005-4b7b-b513-d4e355e62c83-p0s92g.png" />
 </p>
 
 # To-Do List App
